@@ -1,1 +1,8 @@
-key: val
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3]
+BATCH_SIZE: 16
+INCLUDE_TOP: False # removes the triple dense laters at the top of the model, as per VGG 16 model
+EPOCHS: 5
+CLASSES: 2
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
